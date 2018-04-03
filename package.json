@@ -1,0 +1,26 @@
+{
+  "name": "invariant-function-hash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Use invariant-function-hash as npm package\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IhostVlad/invariant-function-hash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IhostVlad/invariant-function-hash/issues"
+  },
+  "homepage": "https://github.com/IhostVlad/invariant-function-hash#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "js-sha512": "0.7.1",
+    "uglifyjs-browser": "^3.0.0"
+  }
+}
