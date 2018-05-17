@@ -19,7 +19,7 @@ function makeInvariantFuncSource(func) {
     : 'O={' + functionSource.replace(/function/g, '') + '}'
 
   var exprTranspiled = babelTransform(exprSource, {
-    presets: [require('babel-preset-es2015'), require('babel-preset-stage-0')]
+    presets: [require('babel-preset-env')]
   }).code
 
   var uglifyResult = uglify.minify(exprTranspiled)
